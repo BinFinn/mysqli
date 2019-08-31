@@ -1,0 +1,20 @@
+{
+    "name": "binfinn/mysqli",
+    "description": "This is a awsome operator class base on mysqli.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "BinFinn",
+            "email": "2244137744@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php":">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mysqli\\": "src/"
+        }
+    }
+}
